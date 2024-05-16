@@ -14,7 +14,7 @@ export default function Home(){
       </div>
 
       <div id="corner-img">
-        <p>According to the U.S. Department of Energy, the widespread installation of LED's can save 348 TWH of energy by the year 2027.</p>
+        <p>According to the U.S. Department of Energy, the widespread installation of LED&apos;s can save 348 TWH of energy by the year 2027.</p>
       </div>
       
       <div class="img-container">
