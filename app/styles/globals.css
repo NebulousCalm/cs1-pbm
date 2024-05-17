@@ -92,14 +92,13 @@ body{
 
 .img-container{
   height: 80%;
-  margin-top: 24px;
+  margin: 24px 0 0 calc(25vw - 10px);
   position: absolute;
+  width: 50vw;
   top: 0;
-  width: 30vw;
-  margin-left: 35vw;
   display: grid;
-  grid-template-columns: repeat(2, minmax(200px, 2fr));
-  grid-template-rows: repeat(2, minmax(300px, 2fr));
+  grid-template-columns: repeat(2, minmax(20vw, 2fr));
+  grid-template-rows: repeat(2, minmax(30vh, 2fr));
   border: 5px solid var(--btn-color);
   .img{
     margin: 16px;
@@ -110,6 +109,16 @@ body{
     object-fit: cover;
     background-size: cover;
     cursor: pointer;
+
+    & p{
+      padding: 24px 8px;
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Wix MadeFor Text', sans-serif;
+      align-items: flex-end;
+      transition: 0.2s;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
   }
   
 }

@@ -19,11 +19,13 @@ export default function Home(){
       
       <div class="img-container">
         <div class="img img1">
-          <p></p>
+          <p>Light Emitting Diodes are cheap and energy efficient</p>
         </div>
-        <div class="img img2"></div>
-        <div class="img img3"></div>
-        <div class="img img4"></div>
+        <div class="img img2">
+          <p>Only needing power and a method to address the individual bulbs.</p>
+        </div>
+        <div class="img img3"><p>LEDs are the future and are widely embraced</p></div>
+        <div class="img img4"><p>LEDs replace previously expensive and devestating bulbs</p></div>
       </div>
     </main>
   );
